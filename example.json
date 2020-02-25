@@ -1,0 +1,62 @@
+{
+    "error": 0,
+    "offers": [
+        {
+            "flights": [
+                {
+                    "airline": "KL",
+                    "flightNumber": 1234,
+                    "oigin": "NCE",
+                    "destination": "AMS",
+                    "aircraft": "KL-A180"
+                },
+                {
+                    "airline": "DL",
+                    "flightNumber": 143,
+                    "oigin": "AMS",
+                    "destination": "SEA",
+                    "aicraft": "DL-A330"
+                }               
+            ],
+            "price": 500,
+            "overalRating": 4,
+            "ratingDetails": [
+                {
+                    "actor": "KL",
+                    "type": "airline",
+                    "rating": 4
+                },
+                {
+                    "actor": "DL",
+                    "type": "airline",
+                    "rating": 5
+                },
+                {
+                    "actor": "NCE",
+                    "type": "airport",
+                    "rating": 5
+                },
+                {
+                    "actor": "AMS",
+                    "type": "airport",
+                    "rating": 4
+                },
+                {
+                    "actor": "SEA",
+                    "type": "airport",
+                    "rating": 5
+                },
+                {
+                    "actor": "DL-A330",
+                    "type": "aircraft",
+                    "rating": 5
+                },
+                {
+                    "actor": "KL-A180",
+                    "type": "aircraft",
+                    "rating": 4
+                }
+            ]
+        }
+    ]
+}
